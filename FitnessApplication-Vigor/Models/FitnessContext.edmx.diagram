@@ -5,7 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="2e56189a57d04deb968255222338f105" Name="Diagram1">
-        <EntityTypeShape EntityType="FitnessModel.User" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FitnessModel.ActivityLevel" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="FitnessModel.User" Width="1.5" PointX="3" PointY="5.125" />
+        <AssociationConnector Association="FitnessModel.fk_ActivityLevelId" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

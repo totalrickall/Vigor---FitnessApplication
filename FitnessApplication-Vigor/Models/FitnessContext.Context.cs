@@ -25,6 +25,7 @@ namespace FitnessApplication_Vigor.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<ActivityLevel> ActivityLevels { get; set; }
         public virtual DbSet<User> Users { get; set; }
     }
 }
