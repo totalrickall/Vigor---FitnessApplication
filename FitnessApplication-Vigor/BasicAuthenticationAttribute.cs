@@ -28,7 +28,7 @@ namespace FitnessApplication_Vigor
                 string username = usernamePasswordArr[0];
                 string password = usernamePasswordArr[1];
 
-                if(FitnessSecurity.Login(username, password))
+                if(UserSecurity.Login(username, password))
                 {
                     Thread.CurrentPrincipal = new GenericPrincipal(new GenericIdentity(username, password), null);
                 }

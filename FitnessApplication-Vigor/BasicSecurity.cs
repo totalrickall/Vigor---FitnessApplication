@@ -6,7 +6,7 @@ using System.Web;
 
 namespace FitnessApplication_Vigor
 {
-    public class FitnessSecurity
+    public class UserSecurity
     {
         public static bool Login(string username, string password)
         {
