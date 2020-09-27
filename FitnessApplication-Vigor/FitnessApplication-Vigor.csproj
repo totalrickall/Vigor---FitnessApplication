@@ -130,6 +130,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivityLevelSecurity.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -162,6 +163,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="BasicAuthenticationAttribute.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -201,8 +203,8 @@
     <Content Include="Global.asax" />
     <Content Include="Models\FitnessContext.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FitnessContext.Context.cs</LastGenOutput>
       <DependentUpon>FitnessContext.edmx</DependentUpon>
+      <LastGenOutput>FitnessContext.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Models\FitnessContext.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
